@@ -8,10 +8,11 @@
 - delete env: `conda env remove <env-name>`
 - activate env: `conda activate <env-name>`
 - deactivate env: `conda deactivate`
+- check all the created envs: `conda env list`
 
 ## conda dependencies
 - check dependencies: `conda list`
-- install dependencies: `conda install -y <pkg-name> -c pytorch -c nvidia -c conda-forge'
-  - check the installation of dependencies in the env/ folder
--
+- install dependencies: `conda install -y <pkg-name> -c pytorch -c nvidia -c conda-forge`
+  - check the installation of dependencies in the .../env/<env-name>/lib/python3.9/site_packages folder
+- 
 
